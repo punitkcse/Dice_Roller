@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_gravity="center_vertical"
+    android:background="@color/Darkk"
     tools:context=".MainActivity">
     <ImageView
         android:id="@+id/dice_images"
@@ -18,6 +19,7 @@
         android:layout_height="122dp"
         android:layout_gravity="center_horizontal"
         android:text="@string/dice_roller"
+        android:textColor="@color/White"
         android:textSize="80sp" />
     <Button
         android:id="@+id/roll_button"
